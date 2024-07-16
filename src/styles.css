@@ -1,24 +1,54 @@
-.game-container {
-  border: 1px solid silver;
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
+body { 
+  background-color: rgb(255, 228, 196); 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+} 
 
-.cell {
-  border: 1px solid silver;
-  width: 25%;
-  height: 25%;
-  box-sizing: border-box;
-  position: relative; 
-  padding: 7.5px 7.5px;
-}
+.game-info { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 20px; 
+} 
 
-.goblin {
-  background-color: red;
-  width: 85px;
-  height: 85px;
+#startButton { 
+  margin-bottom: 20px; 
+  padding: 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+} 
+
+#endButton { 
+  margin-bottom: 20px; 
+  padding: 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+} 
+
+.game-container { 
+  background-color: rgb(1, 254, 64); 
+  display: grid; 
+  grid-template-columns: repeat(3, 160px); 
+  gap: 10px; 
+  border: 2px solid rgb(216, 216, 216); 
+  padding: 20px; 
+  border-radius: 10px; 
+
+} 
+
+.hole { 
+  height: 150px; 
+  background: rgb(19, 55, 139); 
+  border: 5px solid rgb(30, 30, 30); 
+  cursor: pointer; 
+  border-radius: 100px; 
+} 
+
+.mole { 
+  background-size: 150px; 
+  background-image: url( 
+  "https://github.com/netology-code/ahj-homeworks/blob/AHJ-50/dom/pic/goblin.png") 
 }
