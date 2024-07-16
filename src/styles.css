@@ -28,8 +28,7 @@ body {
   cursor: pointer; 
 } 
 
-.game-container { 
-  background-color: rgb(1, 254, 64); 
+.game-container {
   display: grid; 
   grid-template-columns: repeat(4, 160px); 
   gap: 10px; 
@@ -41,10 +40,9 @@ body {
 
 .hole { 
   height: 150px; 
-  background: rgb(19, 55, 139); 
-  border: 5px solid rgb(30, 30, 30); 
+  background: rgb(53, 164, 229);
   cursor: pointer; 
-  border-radius: 100px; 
+  border-radius: 20px; 
 } 
 
 .mole { 
