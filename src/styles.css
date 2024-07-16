@@ -31,7 +31,7 @@ body {
 .game-container { 
   background-color: rgb(1, 254, 64); 
   display: grid; 
-  grid-template-columns: repeat(3, 160px); 
+  grid-template-columns: repeat(4, 160px); 
   gap: 10px; 
   border: 2px solid rgb(216, 216, 216); 
   padding: 20px; 
